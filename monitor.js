@@ -67,7 +67,7 @@ $browser.waitForElement($driver.By.css('.footer'));
 
 $browser.getCurrentUrl().then(function(url){
   console.log('(' + (new Date()).toISOString() + ') Successfully Logged Out... ' + url);
-  expect(url).to.equal('https://hiring.careerbuilder.com/'); //validate that redirect url is correct
+  expect(url).to.equal(''); //validate that redirect url is correct
 });
 
 
